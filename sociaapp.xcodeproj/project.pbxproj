@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D6009E6284DED6F441C044 /* Pods_sociaapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC09D8C5099B63216CF88D2 /* Pods_sociaapp.framework */; };
+		9707160E1F2261870090B19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9707160D1F2261870090B19F /* GoogleService-Info.plist */; };
+		9788B2F41F0D674C00E59D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788B2F31F0D674C00E59D31 /* AppDelegate.swift */; };
+		9788B2F61F0D674C00E59D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788B2F51F0D674C00E59D31 /* ViewController.swift */; };
+		9788B2F91F0D674C00E59D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9788B2F71F0D674C00E59D31 /* Main.storyboard */; };
+		9788B2FB1F0D674C00E59D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9788B2FA1F0D674C00E59D31 /* Assets.xcassets */; };
+		9788B2FE1F0D674C00E59D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9788B2FC1F0D674C00E59D31 /* LaunchScreen.storyboard */; };
+		9788B3091F0D674C00E59D31 /* sociaappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788B3081F0D674C00E59D31 /* sociaappTests.swift */; };
+		9788B3141F0D674C00E59D31 /* sociaappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788B3131F0D674C00E59D31 /* sociaappUITests.swift */; };
+		9788B3241F0EBEF600E59D31 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788B3231F0EBEF600E59D31 /* SignUpVC.swift */; };
+		97CD8B881F25966E00500B6A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD8B871F25966E00500B6A /* FeedVC.swift */; };
+		97CD8B8B1F266E1D00500B6A /* Circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD8B8A1F266E1D00500B6A /* Circleimage.swift */; };
+		97CD8B8D1F26709300500B6A /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD8B8C1F26709300500B6A /* RoundedView.swift */; };
+		97CD8B8F1F2673FF00500B6A /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD8B8E1F2673FF00500B6A /* post.swift */; };
+		97CD8B911F2718EB00500B6A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD8B901F2718EB00500B6A /* PostCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9788B3051F0D674C00E59D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9788B2E81F0D674C00E59D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9788B2EF1F0D674C00E59D31;
+			remoteInfo = sociaapp;
+		};
+		9788B3101F0D674C00E59D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9788B2E81F0D674C00E59D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9788B2EF1F0D674C00E59D31;
+			remoteInfo = sociaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F61512CE3F713A296D6281 /* Pods_sociaappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sociaappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7580C5B45A187A92BE9857EA /* Pods-sociaapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sociaapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sociaapp/Pods-sociaapp.debug.xcconfig"; sourceTree = "<group>"; };
+		7607B0D6EE9EA7E53862B749 /* Pods_sociaappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sociaappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707160D1F2261870090B19F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9788B2F01F0D674C00E59D31 /* sociaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sociaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9788B2F31F0D674C00E59D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9788B2F51F0D674C00E59D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9788B2F81F0D674C00E59D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9788B2FA1F0D674C00E59D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9788B2FD1F0D674C00E59D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9788B2FF1F0D674C00E59D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9788B3041F0D674C00E59D31 /* sociaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sociaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9788B3081F0D674C00E59D31 /* sociaappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociaappTests.swift; sourceTree = "<group>"; };
+		9788B30A1F0D674C00E59D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9788B30F1F0D674C00E59D31 /* sociaappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sociaappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9788B3131F0D674C00E59D31 /* sociaappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociaappUITests.swift; sourceTree = "<group>"; };
+		9788B3151F0D674C00E59D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9788B3231F0EBEF600E59D31 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		97CD8B871F25966E00500B6A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		97CD8B8A1F266E1D00500B6A /* Circleimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circleimage.swift; sourceTree = "<group>"; };
+		97CD8B8C1F26709300500B6A /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		97CD8B8E1F2673FF00500B6A /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		97CD8B901F2718EB00500B6A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		ACC09D8C5099B63216CF88D2 /* Pods_sociaapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sociaapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEF6F6428C9DAE91DBC8959 /* Pods-sociaapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sociaapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-sociaapp/Pods-sociaapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9788B2ED1F0D674C00E59D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D6009E6284DED6F441C044 /* Pods_sociaapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B3011F0D674C00E59D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B30C1F0D674C00E59D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9788B2E71F0D674C00E59D31 = {
+			isa = PBXGroup;
+			children = (
+				9788B2F21F0D674C00E59D31 /* sociaapp */,
+				9788B3071F0D674C00E59D31 /* sociaappTests */,
+				9788B3121F0D674C00E59D31 /* sociaappUITests */,
+				9788B2F11F0D674C00E59D31 /* Products */,
+				CAB23F98B0A9C6ED07F705DF /* Pods */,
+				B47331585C3BCF71A1E007AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9788B2F11F0D674C00E59D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9788B2F01F0D674C00E59D31 /* sociaapp.app */,
+				9788B3041F0D674C00E59D31 /* sociaappTests.xctest */,
+				9788B30F1F0D674C00E59D31 /* sociaappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9788B2F21F0D674C00E59D31 /* sociaapp */ = {
+			isa = PBXGroup;
+			children = (
+				97CD8B891F266CC000500B6A /* view */,
+				9788B2F31F0D674C00E59D31 /* AppDelegate.swift */,
+				9788B2F51F0D674C00E59D31 /* ViewController.swift */,
+				9788B3231F0EBEF600E59D31 /* SignUpVC.swift */,
+				97CD8B871F25966E00500B6A /* FeedVC.swift */,
+				97CD8B8E1F2673FF00500B6A /* post.swift */,
+				9788B2F71F0D674C00E59D31 /* Main.storyboard */,
+				9788B2FA1F0D674C00E59D31 /* Assets.xcassets */,
+				9788B2FC1F0D674C00E59D31 /* LaunchScreen.storyboard */,
+				9788B2FF1F0D674C00E59D31 /* Info.plist */,
+				9707160D1F2261870090B19F /* GoogleService-Info.plist */,
+			);
+			path = sociaapp;
+			sourceTree = "<group>";
+		};
+		9788B3071F0D674C00E59D31 /* sociaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				9788B3081F0D674C00E59D31 /* sociaappTests.swift */,
+				9788B30A1F0D674C00E59D31 /* Info.plist */,
+			);
+			path = sociaappTests;
+			sourceTree = "<group>";
+		};
+		9788B3121F0D674C00E59D31 /* sociaappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9788B3131F0D674C00E59D31 /* sociaappUITests.swift */,
+				9788B3151F0D674C00E59D31 /* Info.plist */,
+			);
+			path = sociaappUITests;
+			sourceTree = "<group>";
+		};
+		97CD8B891F266CC000500B6A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				97CD8B8A1F266E1D00500B6A /* Circleimage.swift */,
+				97CD8B8C1F26709300500B6A /* RoundedView.swift */,
+				97CD8B901F2718EB00500B6A /* PostCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		B47331585C3BCF71A1E007AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC09D8C5099B63216CF88D2 /* Pods_sociaapp.framework */,
+				7607B0D6EE9EA7E53862B749 /* Pods_sociaappTests.framework */,
+				66F61512CE3F713A296D6281 /* Pods_sociaappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB23F98B0A9C6ED07F705DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7580C5B45A187A92BE9857EA /* Pods-sociaapp.debug.xcconfig */,
+				DEEF6F6428C9DAE91DBC8959 /* Pods-sociaapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9788B2EF1F0D674C00E59D31 /* sociaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9788B3181F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaapp" */;
+			buildPhases = (
+				0A85CFDBE9799EC1571CA3CB /* [CP] Check Pods Manifest.lock */,
+				9788B2EC1F0D674C00E59D31 /* Sources */,
+				9788B2ED1F0D674C00E59D31 /* Frameworks */,
+				9788B2EE1F0D674C00E59D31 /* Resources */,
+				05F639EE908F5F07E2CBFD3A /* [CP] Embed Pods Frameworks */,
+				5DEDB2042B1BD5726EEB6F69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sociaapp;
+			productName = sociaapp;
+			productReference = 9788B2F01F0D674C00E59D31 /* sociaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9788B3031F0D674C00E59D31 /* sociaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9788B31B1F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaappTests" */;
+			buildPhases = (
+				9788B3001F0D674C00E59D31 /* Sources */,
+				9788B3011F0D674C00E59D31 /* Frameworks */,
+				9788B3021F0D674C00E59D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9788B3061F0D674C00E59D31 /* PBXTargetDependency */,
+			);
+			name = sociaappTests;
+			productName = sociaappTests;
+			productReference = 9788B3041F0D674C00E59D31 /* sociaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9788B30E1F0D674C00E59D31 /* sociaappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9788B31E1F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaappUITests" */;
+			buildPhases = (
+				9788B30B1F0D674C00E59D31 /* Sources */,
+				9788B30C1F0D674C00E59D31 /* Frameworks */,
+				9788B30D1F0D674C00E59D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9788B3111F0D674C00E59D31 /* PBXTargetDependency */,
+			);
+			name = sociaappUITests;
+			productName = sociaappUITests;
+			productReference = 9788B30F1F0D674C00E59D31 /* sociaappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9788B2E81F0D674C00E59D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HGPMAC58;
+				TargetAttributes = {
+					9788B2EF1F0D674C00E59D31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H26UN579R9;
+						ProvisioningStyle = Automatic;
+					};
+					9788B3031F0D674C00E59D31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H26UN579R9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9788B2EF1F0D674C00E59D31;
+					};
+					9788B30E1F0D674C00E59D31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H26UN579R9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9788B2EF1F0D674C00E59D31;
+					};
+				};
+			};
+			buildConfigurationList = 9788B2EB1F0D674C00E59D31 /* Build configuration list for PBXProject "sociaapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9788B2E71F0D674C00E59D31;
+			productRefGroup = 9788B2F11F0D674C00E59D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9788B2EF1F0D674C00E59D31 /* sociaapp */,
+				9788B3031F0D674C00E59D31 /* sociaappTests */,
+				9788B30E1F0D674C00E59D31 /* sociaappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9788B2EE1F0D674C00E59D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9788B2FE1F0D674C00E59D31 /* LaunchScreen.storyboard in Resources */,
+				9788B2FB1F0D674C00E59D31 /* Assets.xcassets in Resources */,
+				9788B2F91F0D674C00E59D31 /* Main.storyboard in Resources */,
+				9707160E1F2261870090B19F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B3021F0D674C00E59D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B30D1F0D674C00E59D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F639EE908F5F07E2CBFD3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sociaapp/Pods-sociaapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A85CFDBE9799EC1571CA3CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEDB2042B1BD5726EEB6F69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sociaapp/Pods-sociaapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9788B2EC1F0D674C00E59D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CD8B881F25966E00500B6A /* FeedVC.swift in Sources */,
+				9788B2F61F0D674C00E59D31 /* ViewController.swift in Sources */,
+				97CD8B8D1F26709300500B6A /* RoundedView.swift in Sources */,
+				97CD8B8F1F2673FF00500B6A /* post.swift in Sources */,
+				9788B3241F0EBEF600E59D31 /* SignUpVC.swift in Sources */,
+				97CD8B8B1F266E1D00500B6A /* Circleimage.swift in Sources */,
+				9788B2F41F0D674C00E59D31 /* AppDelegate.swift in Sources */,
+				97CD8B911F2718EB00500B6A /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B3001F0D674C00E59D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9788B3091F0D674C00E59D31 /* sociaappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9788B30B1F0D674C00E59D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9788B3141F0D674C00E59D31 /* sociaappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9788B3061F0D674C00E59D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9788B2EF1F0D674C00E59D31 /* sociaapp */;
+			targetProxy = 9788B3051F0D674C00E59D31 /* PBXContainerItemProxy */;
+		};
+		9788B3111F0D674C00E59D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9788B2EF1F0D674C00E59D31 /* sociaapp */;
+			targetProxy = 9788B3101F0D674C00E59D31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9788B2F71F0D674C00E59D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9788B2F81F0D674C00E59D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9788B2FC1F0D674C00E59D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9788B2FD1F0D674C00E59D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9788B3161F0D674C00E59D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9788B3171F0D674C00E59D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9788B3191F0D674C00E59D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7580C5B45A187A92BE9857EA /* Pods-sociaapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9788B31A1F0D674C00E59D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEF6F6428C9DAE91DBC8959 /* Pods-sociaapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9788B31C1F0D674C00E59D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sociaapp.app/sociaapp";
+			};
+			name = Debug;
+		};
+		9788B31D1F0D674C00E59D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sociaapp.app/sociaapp";
+			};
+			name = Release;
+		};
+		9788B31F1F0D674C00E59D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sociaapp;
+			};
+			name = Debug;
+		};
+		9788B3201F0D674C00E59D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H26UN579R9;
+				INFOPLIST_FILE = sociaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgp.sociaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sociaapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9788B2EB1F0D674C00E59D31 /* Build configuration list for PBXProject "sociaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9788B3161F0D674C00E59D31 /* Debug */,
+				9788B3171F0D674C00E59D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9788B3181F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9788B3191F0D674C00E59D31 /* Debug */,
+				9788B31A1F0D674C00E59D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9788B31B1F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9788B31C1F0D674C00E59D31 /* Debug */,
+				9788B31D1F0D674C00E59D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9788B31E1F0D674C00E59D31 /* Build configuration list for PBXNativeTarget "sociaappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9788B31F1F0D674C00E59D31 /* Debug */,
+				9788B3201F0D674C00E59D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9788B2E81F0D674C00E59D31 /* Project object */;
+}
